@@ -1,0 +1,18 @@
+**** CREATE A FOOD
+var xmlhttp  =new XMLHttpRequest();
+xmlhttp.open("POST", "/foods/");
+xmlhttp.setRequestHeader("Content-Type", "application/json");
+xmlhttp.send(JSON.stringify({
+name:"Haricot rouge",foodsGroup:{id:1}, glycIndex:5,energy:6,carboHydrates:7,proteins:8,lipids:9,comment:"essai"}));
+xmlhttp.response
+
+
+**** CREATE A FOODGROUP
+var xmlhttp  =new XMLHttpRequest();
+xmlhttp.open("POST", "/foodsgroup/");
+xmlhttp.setRequestHeader("Content-Type", "application/json");
+xmlhttp.send(JSON.stringify({
+name:"Fruit"}));
+xmlhttp.response
+
+
