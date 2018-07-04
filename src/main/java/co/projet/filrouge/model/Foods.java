@@ -43,7 +43,8 @@ public class Foods {
 		@Column(name = "NAME",nullable=false)
 		private String name;
 		
-		//Option LAZY permet de ne pas créer de table de liaison entre food et foodgroup
+		//Option LAZY permet de ne pas créer de table de liaison 
+		//entre food et foodgroup
   		@ManyToOne(fetch = FetchType.LAZY)
   		//@ManyToOne
 		@JoinColumn(name = "foodsGroup")
