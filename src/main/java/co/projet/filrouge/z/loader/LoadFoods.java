@@ -34,7 +34,7 @@ public class LoadFoods implements ApplicationListener<ContextRefreshedEvent> {
 	private final static char CSV_SEPARATOR = ';';
 	private GroupRepository groupRepo;
 	private FoodsRepository foodRepo;
-
+	//TEST
 	//private DRITemplateRepository driRepo;
 
 
